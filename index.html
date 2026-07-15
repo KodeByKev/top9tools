@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top 9 Tools</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ─────────────────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand">
+        <img src="Logo.png" alt="Top 9 Tools logo" class="nav-logo" />
+        <span class="nav-name"><span class="brand-text">Top 9 Tools</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#software">Apps</a></li>
+        <li><a href="#apis">APIs</a></li>
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="#websites">Websites</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── HERO ────────────────────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <img src="Logo.png" alt="Top 9 Tools" class="hero-logo" />
+      <h1 class="hero-title"><span class="brand-text">Top 9 Tools</span></h1>
+      <p class="hero-sub">Custom Apps, APIs, Documents, and Websites Tailored to Your Athletes and Your Brand.</p>
+      <div class="hero-cta-group">
+        <a href="#software" class="btn btn-primary">What We Build</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <svg class="hero-diamond" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <polygon points="100,10 190,100 100,190 10,100" fill="none" stroke="rgba(74,144,217,0.18)" stroke-width="2"/>
+      <polygon points="100,30 170,100 100,170 30,100" fill="none" stroke="rgba(74,144,217,0.10)" stroke-width="1.5"/>
+    </svg>
+  </section>
+
+  <!-- ── ABOUT ───────────────────────────────────────────────────────────── -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">Who We Are</div>
+      <div class="about-layout">
+
+        <!-- Founder card -->
+        <div class="about-founder">
+          <div class="about-founder-photo-wrap">
+            <img src="KD24.jpg" alt="Kevin Donohue" class="about-founder-photo" />
+          </div>
+          <div class="about-founder-info">
+            <h3 class="about-founder-name">Kevin Donohue</h3>
+            <p class="about-founder-role">Former College Baseball Player</p>
+            <p class="about-founder-school">Truman State University (NCAA DII) &nbsp; 2019&ndash;2023</p>
+          </div>
+        </div>
+
+        <!-- Mission + service cards -->
+        <div class="about-right">
+          <p class="about-mission">&ldquo;Our Mission is to provide technical support to athlete-focused organizations so that their training methods can be efficiently analyzed and optimized.&rdquo;</p>
+          <div class="about-grid">
+            <div class="about-card">
+              <div class="about-icon">&#128187;</div>
+              <h3>Custom Apps</h3>
+              <p>Analytics tools built specifically for your athletes — track pitch movement, generate reports, and measure progress over time.</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon">&#128257;</div>
+              <h3>Custom APIs</h3>
+              <p>We move your data from where it lives now into the cloud, a database, or a custom tool — clean, structured, and ready to use.</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon">&#128196;</div>
+              <h3>Custom Documents</h3>
+              <p>Fillable PDFs — employee forms, review sheets, and reports — all branded with your logo and ready to use from day one.</p>
+            </div>
+            <div class="about-card">
+              <div class="about-icon">&#127760;</div>
+              <h3>Custom Websites</h3>
+              <p>Fully branded websites that showcase your program, facilities, and athletes — built your way and deployable anywhere.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CUSTOM APPS ─────────────────────────────────────────────────────── -->
+  <section class="section software-section" id="software">
+    <div class="container">
+      <div class="section-label">What We Build</div>
+      <h2 class="section-title">Custom Apps</h2>
+      <p class="service-desc">
+        Purpose-built browser tools that give your coaches and athletes real-time data.
+        Our pitch movement app tracks the horizontal and vertical break of every pitch
+        from your bullpens and outings, plots it instantly on a color-coded chart, and
+        exports a professional PDF report in one click — all branded to your organization.
+      </p>
+
+      <!-- Two images side by side -->
+      <div class="software-grid software-grid-large">
+        <div class="software-img-block">
+          <div class="img-label">Pitch Movement Tracking Tool</div>
+          <div class="screenshot-wrap">
+            <div class="screenshot-glow"></div>
+            <img src="ToolImage.png" alt="Top 9 Tools pitch movement tracking tool" class="screenshot-img" />
+          </div>
+          <p class="img-caption">Enter pitch type, vertical break, horizontal break, and velocity. The tool plots every pitch instantly with variance ellipses and supports freehand drawing.</p>
+        </div>
+        <div class="software-img-block">
+          <div class="img-label">Customized PDF Report</div>
+          <div class="screenshot-wrap">
+            <div class="screenshot-glow"></div>
+            <img src="ReportImage.png" alt="Top 9 Tools customized PDF pitch report" class="screenshot-img" />
+          </div>
+          <p class="img-caption">One-click export generates a branded, single-page PDF with your logo, athlete name, school, a full movement chart, and a per-pitch statistics table.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ── CUSTOM APIs ─────────────────────────────────────────────────────── -->
+  <section class="section apis-section" id="apis">
+    <div class="container">
+      <div class="section-label">What We Build</div>
+      <h2 class="section-title">Custom APIs &amp; Data Pipelines</h2>
+      <p class="service-desc">
+        We take your data from where it is now and organize it in a new place — whether that's
+        the cloud, a database, or a custom tool. No more scattered spreadsheets or disconnected
+        systems. We build the pipeline that moves, cleans, and structures your data exactly the
+        way your workflow needs it.
+      </p>
+      <!-- Three API images -->
+      <div class="api-images-grid">
+        <div class="software-img-block">
+          <div class="img-label">Web App — Live Standings Table</div>
+          <div class="screenshot-wrap">
+            <div class="screenshot-glow"></div>
+            <img src="APIImage1.png" alt="Data displayed in a live web app table" class="screenshot-img" />
+          </div>
+        </div>
+        <div class="software-img-block">
+          <div class="img-label">Spreadsheet — Structured Database</div>
+          <div class="screenshot-wrap">
+            <div class="screenshot-glow"></div>
+            <img src="APIImage2.png" alt="Data organized in a structured spreadsheet" class="screenshot-img" />
+          </div>
+        </div>
+        <div class="software-img-block">
+          <div class="img-label">Chart — Visual Dashboard</div>
+          <div class="screenshot-wrap">
+            <div class="screenshot-glow"></div>
+            <img src="APIImage3.png" alt="Data visualized as a chart dashboard" class="screenshot-img" />
+          </div>
+        </div>
+      </div>
+      <p class="api-images-caption">The same data can live in the cloud, a web app, a spreadsheet, a database, a chart, or all of the above &mdash; we build the pipeline that gets it to its next destination.</p>
+      <div class="websites-grid" style="margin-top: 48px;">
+        <div class="website-card">
+          <div class="website-card-icon">&#9729;&#65039;</div>
+          <h4>Cloud Integration</h4>
+          <p>Push your data to the cloud so it's accessible anywhere, backed up, and ready to scale with your organization.</p>
+        </div>
+        <div class="website-card">
+          <div class="website-card-icon">&#128452;&#65039;</div>
+          <h4>Database Setup</h4>
+          <p>We design and populate a structured database from your existing data sources — organized, queryable, and built for your workflow.</p>
+        </div>
+        <div class="website-card">
+          <div class="website-card-icon">&#128260;</div>
+          <h4>Data Pipelines</h4>
+          <p>Automate the movement of data between systems so your tools always have fresh, accurate information without manual exports.</p>
+        </div>
+        <div class="website-card">
+          <div class="website-card-icon">&#128202;</div>
+          <h4>Custom Dashboards</h4>
+          <p>Pair your API with a live dashboard so your staff can see the data they need, formatted the way they want it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CUSTOM DOCUMENTS ────────────────────────────────────────────────── -->
+  <section class="section documents-section" id="documents">
+    <div class="container">
+      <div class="section-label">What We Build</div>
+      <h2 class="section-title">Custom Documents</h2>
+      <div class="documents-layout">
+        <div class="documents-img-block">
+          <div class="screenshot-wrap">
+            <div class="screenshot-glow"></div>
+            <img src="DocumentImage.png" alt="Top 9 Tools custom branded fillable PDF document" class="screenshot-img" />
+          </div>
+        </div>
+        <div class="documents-text">
+          <p class="service-desc" style="margin-bottom: 32px;">
+            Professional fillable PDFs built with your logo and branding. Fill them out digitally
+            and send directly via email — no printing required. From employee review sheets and
+            write-up forms to athlete report templates, every document looks like it came from
+            your organization.
+          </p>
+          <div class="doc-feature-list">
+            <div class="doc-feature">
+              <span class="doc-feature-dot"></span>
+              <span>Your logo on every page</span>
+            </div>
+            <div class="doc-feature">
+              <span class="doc-feature-dot"></span>
+              <span>Fillable fields for names, dates, and signatures</span>
+            </div>
+            <div class="doc-feature">
+              <span class="doc-feature-dot"></span>
+              <span>Fill out digitally and send via email</span>
+            </div>
+            <div class="doc-feature">
+              <span class="doc-feature-dot"></span>
+              <span>Employee review &amp; write-up forms</span>
+            </div>
+            <div class="doc-feature">
+              <span class="doc-feature-dot"></span>
+              <span>Athlete performance report templates</span>
+            </div>
+            <div class="doc-feature">
+              <span class="doc-feature-dot"></span>
+              <span>Print-ready, professional formatting</span>
+            </div>
+            <div class="doc-feature">
+              <span class="doc-feature-dot"></span>
+              <span>Delivered as ready-to-use PDF files</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CUSTOM WEBSITES ─────────────────────────────────────────────────── -->
+  <section class="section websites-section" id="websites">
+    <div class="container">
+      <div class="section-label">What We Build</div>
+      <h2 class="section-title">Custom Websites</h2>
+      <p class="website-hook">Want a website like this one?</p>
+      <p class="service-desc">
+        Showcase your mission, facilities, and athletes the way you want with a custom website.
+        We design and build fully branded sites that represent your program professionally —
+        no templates, no generic layouts. Everything is tailored to your organization and
+        deployable to any hosting platform when you're ready.
+      </p>
+      <div class="websites-grid">
+        <div class="website-card">
+          <div class="website-card-icon">&#127968;</div>
+          <h4>Your Brand, Your Vision</h4>
+          <p>Colors, fonts, logos, and layout all built around your identity — not a cookie-cutter template.</p>
+        </div>
+        <div class="website-card">
+          <div class="website-card-icon">&#128247;</div>
+          <h4>Showcase Your Program</h4>
+          <p>Highlight your facilities, coaching staff, athlete success stories, and training philosophy.</p>
+        </div>
+        <div class="website-card">
+          <div class="website-card-icon">&#128241;</div>
+          <h4>Mobile Ready</h4>
+          <p>Every site is fully responsive — looks sharp on phones, tablets, and desktops.</p>
+        </div>
+        <div class="website-card">
+          <div class="website-card-icon">&#128640;</div>
+          <h4>Ready to Deploy</h4>
+          <p>Built to go live on any host — Render, Vercel, Netlify, or your own domain — whenever you're ready.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ─────────────────────────────────────────────────────────── -->
+  <footer class="footer" id="contact">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#0D1B2A"/>
+      </svg>
+    </div>
+
+    <div class="footer-body">
+      <div class="container footer-inner">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="Logo.png" alt="Top 9 Tools" class="footer-logo" />
+          <p class="footer-tagline"><span class="brand-text">Top 9 Tools</span></p>
+          <p class="footer-sub-tagline">Custom Apps, APIs, Documents &amp; Websites</p>
+        </div>
+
+        <!-- Contact card -->
+        <div class="footer-contact-card">
+          <p class="contact-section-label">Get in Touch</p>
+          <div class="contact-photo-wrap">
+            <img src="KD24.jpg" alt="Kevin Donohue" class="contact-photo" />
+          </div>
+          <div class="contact-info">
+            <h3 class="contact-name">Kevin Donohue</h3>
+            <p class="contact-role">Former College Baseball Player</p>
+            <p class="contact-school">
+              Truman State University &nbsp;|&nbsp; 2019&ndash;2023 &nbsp;&nbsp; NCAA DII
+            </p>
+            <ul class="contact-details">
+              <li>
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.18 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+                </svg>
+                <a href="tel:8477724639">847-772-4639</a>
+              </li>
+              <li>
+                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                </svg>
+                <a href="mailto:kevin.donohue24@gmail.com">kevin.donohue24@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <p class="footer-copy">&copy; 2025 Top 9 Tools. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
