@@ -74,9 +74,9 @@ img { display: block; max-width: 100%; }
 
 /* ── Brand name treatment ─────────────────────────────────────────────────── */
 .brand-text {
-  font-family: 'Bebas Neue', 'Inter', sans-serif;
+  font-family: 'Russo One', 'Inter', sans-serif;
   font-weight: 400;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   background: linear-gradient(90deg, #ffffff 0%, #6AAEE8 60%, #4A90D9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
